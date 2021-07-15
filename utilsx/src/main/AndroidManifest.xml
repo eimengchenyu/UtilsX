@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chw.utilsx">
+
+    <application>
+
+        <provider
+            android:name=".context.ApplicationProvider"
+            android:authorities="${applicationId}.utilsx.application.provider"
+            android:exported="false" />
+    </application>
+</manifest>
